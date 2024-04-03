@@ -28,7 +28,9 @@ Users should be able to:
 
 ### Links
 
-will add them shortly
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-WDLQNQOhzS](https://www.frontendmentor.io/solutions/social-links-profile-WDLQNQOhzS)
+
+- live server URL: [https://iliasghar.github.io/Social-Links-Profile/](https://iliasghar.github.io/Social-Links-Profile/)
 
 ## My process
 
