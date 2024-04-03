@@ -1,0 +1,98 @@
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --gray: hsl(0, 0%, 20%);
+  --dark-gray: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+
+body {
+  background-color: var(--off-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Inter" , sans-serif;
+}
+
+.profile-container {
+  background-color: var(--dark-gray);
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: min(100vw , 19rem);
+  border-radius: 10px;
+}
+
+.profile-picture {
+  width: 5.4rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.profile-location {
+  font-size: .85rem;
+  color: var(--Green);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.profile-bio {
+  color: var(--white);
+  font-size: .875rem;
+  margin-bottom: 1.25rem;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  background-color: var(--gray);
+  font-size: .85rem;
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 5px;
+  transition: background-color 100ms ease-out , color 100ms ease-out;
+}
+
+.button:focus-visible {
+  outline: 2px var(--gray) solid;
+  outline-offset: 3px;
+}
+
+.button:hover {
+  background-color: var(--Green);
+  color: var(--dark-gray);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 2rem;
+  color: var(--white);
+}
+
+.attribution a {
+  color: var(--Green);
+}
